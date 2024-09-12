@@ -15,3 +15,7 @@ This is a simple web application for Socket Machines Ltd., a fictional company t
 ## Quote Page
 
 ![image](https://github.com/user-attachments/assets/d16384bd-7b14-4e51-8ac5-ec0496cabc91)
+
+## Quantity Error
+
+![image](https://github.com/user-attachments/assets/f9955117-166a-47d9-ab5c-e4938706282c)
