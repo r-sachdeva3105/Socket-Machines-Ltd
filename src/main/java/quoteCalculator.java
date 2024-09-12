@@ -25,6 +25,11 @@ public class quoteCalculator extends HttpServlet {
             response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Quantity must be a valid number.");
             return;
         }
+        
+        if (quantity < 1) {
+        	response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Quantity must be greater than 0.");
+            return;
+        }
 
         double pricePerSocket = getPricePerSocket(socketType);
         double totalPrice = pricePerSocket * quantity;
